@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Link Css Style Sheet file Path='../CSS/Style.css' -->
+    <link rel="stylesheet" type="text/css" href="CSS/Style.css">
+<!-- link Tha Favicon Image File Path='Favicon-image/calculator.png' -->
+    <link rel="icon" href="Favicon-image/calculator.png">
+  <!-- Tab Title -->
+	<title>Calculator</title>
+</head>
+<body>
+<!-- Cantainer class -->
+	<div class="container">
+		
+      <div class="calculator">
+        <!-- input Screen -->
+      	<input type="text" name="input" placeholder="0" class="input" id="input">
+        <!-- Create the all button -->
+      	<button onclick="Clear()" style=" color: orange; font-size: 16px;">Clr</button>
+      	<button onclick="Delete()" style=" color: orange; font-size: 16px;">DEL</button>
+      	<button onclick="display('%')" style="color: green;">%</button>
+      	<button onclick="display('/')" style="color: green;">/</button>
+      	<button onclick="display('7')">7</button>
+      	<button onclick="display('8')">8</button>
+        <button onclick="display('9')">9</button>
+        <button onclick="display('*')" style="color: green;">x</button>
+        <button onclick="display('4')">4</button>
+        <button onclick="display('5')">5</button>
+        <button onclick="display('6')">6</button>
+        <button onclick="display('-')" style="color:green;">-</button>
+        <button onclick="display('1')">1</button>
+        <button onclick="display('2')">2</button>
+        <button onclick="display('3')">3</button>
+        <button onclick="display('+')" style="color:green;">+</button>
+        <button onclick="display('.')">.</button>
+        <button onclick="display('0')">0</button>
+        <button class="equal" onclick="Calculate()"  style="color:green;">=</button>
+      </div>
+	</div>
+<!-- My logo image  -->
+	<div class="logo">
+    <h4>Develobed By </h4>
+		<img src="Favicon-image/rabin.png">
+
+	</div>
+  <!-- link The JavaScript File Path='JavaScript/Script.js' -->
+	<script type="text/javascript" src="JavaScript/Script.js">
+
+	</script>
+
+</body>
+</html>
