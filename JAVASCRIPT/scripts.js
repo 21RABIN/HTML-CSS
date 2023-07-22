@@ -1,3 +1,4 @@
+//Add tha value a and b
 function addnumber()
 {
 	let a=Number(document.getElementById('a').value);
@@ -8,6 +9,7 @@ function addnumber()
 	result.innerHTML=results;
 }
 
+//subract the value a and b 
 function divnumber()
 {
 	let a=Number(document.getElementById('a').value);
