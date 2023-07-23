@@ -1,8 +1,11 @@
+<!...all html tags using this property...>
 *
 {
 	margin: 0;
 	padding: 0;
 }
+
+<!...body of the section..>
 body
 {
 	height: 100vh;
@@ -13,6 +16,7 @@ body
 
 }
 
+<!...key frame animation..>
 
 @keyframes clr{
 
@@ -35,7 +39,7 @@ body
 
 }
 
-
+<!...buttons..>
 
 
 .button
@@ -57,6 +61,8 @@ button
 
       
 }
+
+<!.. hover the button animation..>
 
 .b1:hover
 {
@@ -111,6 +117,7 @@ p
      
 }
 
+<!...key frame button animation..>
 @keyframes button
 {
 	0%
@@ -132,6 +139,8 @@ p
 		width: 100px;
 	}
 }
+
+<!...alternate screen size in responsive..>
 @media (max-width:1490px)
 {
 	button
